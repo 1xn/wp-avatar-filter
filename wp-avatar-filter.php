@@ -4,7 +4,7 @@ Plugin Name: Custom Avatar Filter
 Plugin URI: https://1xn.org
 Description: Replace user avatars with custom images based on username. It searches the gallery for username.jpg and replaces the avatar.
 Version: 1.0
-Author: 1xN
+Author: Daniel F. Wehleit
 Author URI: https://1xn.org
 License: GPL2
 */
