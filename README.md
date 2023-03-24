@@ -5,6 +5,7 @@ The wp-avatar-filter plugin for WordPress provides a filter hook that allows you
 ## Installation
 
 ## Download the wp-avatar-filter plugin.
+- edit the example.com URL inside the php code with your URL
 - Create a new folder called wp-avatar-filter in the /wp-content/plugins/ directory.
 - Upload the plugin files to the wp-avatar-filter directory, or upload the zip file directly from the WordPress admin interface.
 - Activate the wp-avatar-filter plugin through the 'Plugins' menu in WordPress.
