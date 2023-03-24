@@ -8,9 +8,9 @@ Author: Daniel F. Wehleit
 Author URI: https://1xn.org
 License: GPL2
 */
-add_filter('get_avatar_data', 'ht1_change_avatar', 100, 2);
+add_filter('get_avatar_data', 'change_avatar', 100, 2);
 
-function ht1_change_avatar($args, $id_or_email) {
+function change_avatar($args, $id_or_email) {
     $user_id = false;
     if (is_numeric($id_or_email)) {
         $user_id = (int) $id_or_email;
