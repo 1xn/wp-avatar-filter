@@ -16,7 +16,12 @@ Once the plugin is installed and activated, the get_avatar_data filter hook will
 
 ## Notes
 
-It took me a little while to figure out how to use the get_avatar_data filter hook, as the WordPress API documentation can be vague at times. However, once you get it working, it's a powerful tool to automate bulk user creation in Wordpress. Tested on a Wordpress installation with over 200 users. It works dynamically, so you can replace images just by deleting the old one, and uploading a new one with the title of your username like username.jpg
+It took me a little while to figure out how to use the get_avatar_data filter hook, as the WordPress API documentation can be vague at times. 
+
+So big thanks to Adi Kusuma for the help!
+https://stackoverflow.com/users/10203981/adi-kusuma 
+
+Once you get it working, it's a powerful tool to automate bulk user creation in Wordpress. Tested on a Wordpress installation with over 200 users. It works dynamically, so you can replace images just by deleting the old one, and uploading a new one with the title of your username like username.jpg
 
 ## License
 
