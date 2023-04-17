@@ -6,9 +6,9 @@ The wp-avatar-filter plugin for WordPress provides a filter hook that allows you
 
 ## Download the wp-avatar-filter plugin.
 - edit the example.com URL inside the php code with your URL
-- Create a new folder called wp-avatar-filter in the /wp-content/plugins/ directory.
-- Upload the plugin files to the wp-avatar-filter directory, or upload the zip file directly from the WordPress admin interface.
-- Activate the wp-avatar-filter plugin through the 'Plugins' menu in WordPress.
+- Upload the zip file directly from the WordPress admin interface.
+- Activate the wp-avatar-filter plugin
+- Make sure in Wordpress Settings - Media you have checked OFF the option to organize uploads by date.
 
 ## Usage
 
@@ -16,7 +16,7 @@ Once the plugin is installed and activated, the get_avatar_data filter hook will
 
 ## Notes
 
-It took me a little while to figure out how to use the get_avatar_data filter hook, as the WordPress API documentation can be vague at times. However, once you get it working, it's a powerful tool to automate bulk user creation in Wordpress.
+It took me a little while to figure out how to use the get_avatar_data filter hook, as the WordPress API documentation can be vague at times. However, once you get it working, it's a powerful tool to automate bulk user creation in Wordpress. Tested on a Wordpress installation with over 200 users. It works dynamically, so you can replace images just by deleting the old one, and uploading a new one with the title of your username like username.jpg
 
 ## License
 
