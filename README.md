@@ -4,15 +4,15 @@ The wp-avatar-filter plugin for WordPress provides a filter hook that allows you
 
 ## Installation
 
-## Download the wp-avatar-filter plugin.
-- edit the example.com URL inside the php code with your URL
-- Upload the zip file directly from the WordPress admin interface.
-- Activate the wp-avatar-filter plugin
+## Download 
+- Just download the .zip file, edit the example.com URL inside the php file with your URL
+- Zipt it again. Upload the zip file directly to the WordPress admin interface.
+- Activate the wp-avatar-filter plugin if not activated on the install.
 - Make sure in Wordpress Settings - Media you have checked OFF the option to organize uploads by date.
 
 ## Usage
 
-Once the plugin is installed and activated, the get_avatar_data filter hook will be applied to WordPress, and the user avatars will be replaced with the corresponding username.jpg file from the media gallery.
+Once the plugin is installed and activated, you can upload an image with the filename yourusername.jpg and the get_avatar_data filter hook will be applied to WordPress automatically, all the user avatars will be replaced with the corresponding username.jpg file from the media gallery.
 
 ## Notes
 
