@@ -6,7 +6,7 @@ The wp-avatar-filter plugin for WordPress provides a filter hook that allows you
 
 ## Download 
 - Just download the .zip file, edit the example.com URL inside the php file with your URL
-- Zipt it again. Upload the zip file directly to the WordPress admin interface.
+- Compress it into a .zip file again with your edits. Upload the zip file directly to the WordPress admin interface.
 - Activate the wp-avatar-filter plugin if not activated on the install.
 - Make sure in Wordpress Settings - Media you have checked OFF the option to organize uploads by date.
 
